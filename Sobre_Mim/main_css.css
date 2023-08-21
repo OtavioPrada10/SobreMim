@@ -1,0 +1,81 @@
+body {
+  background-color: #292929;
+  color: aliceblue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(234, 79%, 21%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: hsl(235, 87%, 12%);
+  font-size: 17px;
+}
+
+p {
+  margin: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial;
+  
+}
+
+.insideInicial{
+    animation-duration: 0.4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.navMenu {
+  height: 3rem;
+  background-color: hsl(234, 79%, 21%);
+  overflow: hidden;
+}
+
+.oneInNavMenu {
+  width: 50%;
+  float: left;
+}
+.twoInNavMenu {
+  float: right;
+  width: 49%;
+}
+
+.inicioConteudo {
+  background-color: hsl(234, 79%, 23%);
+  width: 100%;
+  height: 30rem;
+  margin: 0px;
+}
+
+.parteUmInicial {
+  width: 40%;
+  padding-top: 3%;
+  padding-left: 3%;
+}
